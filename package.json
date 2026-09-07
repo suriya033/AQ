@@ -1,0 +1,11 @@
+{
+  "name": "unisex-beauty-salon-app",
+  "version": "1.0.0",
+  "description": "Full-stack Unisex Beauty Salon website with Booking & Admin Dashboard",
+  "scripts": {
+    "install-all": "npm install --prefix server && npm install --prefix client",
+    "start-server": "npm start --prefix server",
+    "start-client": "npm run dev --prefix client",
+    "dev": "npm run start-server & npm run start-client"
+  }
+}
